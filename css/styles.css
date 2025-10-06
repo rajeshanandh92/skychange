@@ -176,6 +176,7 @@ html {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   overflow: hidden;
+  top: 50px;
 }
 
 .hero-background {
@@ -1075,6 +1076,10 @@ html {
   .container {
     padding: 0 15px;
   }
+
+  .hero .container {
+	  margin-top: 50px;
+  }
   
   .section-padding {
     padding: 60px 0;
@@ -1097,7 +1102,7 @@ html {
   }
   
   .floating-call-button {
-    bottom: 100px;
+    bottom: 20px;
     right: 15px;
   }
   
