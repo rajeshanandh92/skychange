@@ -193,10 +193,10 @@ function addChatMessage(message, sender) {
 function addAgentResponse(userMessage) {
   const responses = [
     "Thank you for contacting us! I'd be happy to help with your international flight change. Can you please provide your booking reference?",
-    "I understand you need assistance with flight modifications. For the fastest service, please call us at (xxx) xxx-xxxx.",
-    "Great! I can help you with that. Our specialists are available 24/7 to assist with international airline changes.",
-    "I see you're looking for flight cancellation assistance. Let me connect you with one of our expert agents who can help immediately.",
-    "Thank you for reaching out! For complex international flight changes, our phone support team can provide the most efficient assistance."
+    "I understand you need assistance with flight modifications. For the fastest service, please call us at (888) 483-4464.",
+    "Great! I can help you with that. Our specialists are available 24/7 to assist with international airline changes. Call us at (888) 483-4464.",
+    "I see you're looking for flight cancellation assistance. Let me connect you with one of our expert agents who can help immediately. Meanwhile, please contact our team at (888) 483-4464.",
+    "Thank you for reaching out! For complex international flight changes, our phone support team can provide the most efficient assistance. Call now at (888) 483-4464."
   ];
   
   const randomResponse = responses[Math.floor(Math.random() * responses.length)];
